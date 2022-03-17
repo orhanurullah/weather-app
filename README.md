@@ -4,9 +4,10 @@ Get Weather datas in openweathermap.com website.
 ![Weather Gif](src/assets/images/weather-app.gif)
 
 ## Using
+Go https://openweathermap.org website. After registered this website take your api key.
 After clone this project you should create a .env file and you should add this lines.
 - REACT_APP_API_URL=https://api.openweathermap.org/data/2.5
-- REACT_APP_API_KEY=<Your api key>
+- REACT_APP_API_KEY=your-api-key
 - REACT_APP_ICON_URL=https://openweathermap.org/img/w
 
 After than 
