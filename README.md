@@ -3,6 +3,19 @@ Get Weather datas in openweathermap.com website.
 
 ![Weather Gif](src/assets/images/weather-app.gif)
 
+## Using
+After clone this project you should create a .env file and you should add this lines.
+- REACT_APP_API_URL=https://api.openweathermap.org/data/2.5
+- REACT_APP_API_KEY=<Your api key>
+- REACT_APP_ICON_URL=https://openweathermap.org/img/w
+
+After than 
+- npm run start
+
+And you are in localhost:3000.
+
+Please only a star.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
