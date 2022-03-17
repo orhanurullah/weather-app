@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
 import "./assets/style.css";
 import sunny from "./assets/images/sunny.jpg";
@@ -18,11 +17,11 @@ function App() {
 
   useEffect(() => {
     if(typeof data.clouds != 'undefined'){
-      if(data.weather[0].main == "Clear"){
+      if(data.weather[0].main === "Clear"){
         setImage(sunny);
-      }else if(data.weather[0].main == "Rain"){
+      }else if(data.weather[0].main === "Rain"){
         setImage(rainy);
-      }else if(data.weather[0].main == "Snow"){
+      }else if(data.weather[0].main === "Snow"){
         setImage(snowy);
       }else{
         setImage(cloudy);
